@@ -1,0 +1,3 @@
+# Rust Mutable vs Immutable Borrow Example
+
+This repository demonstrates a common error in Rust involving mutable and immutable borrows.  The `bug.rs` file contains code that attempts to modify a value via an immutable reference, resulting in a compile-time error. The `bugSolution.rs` demonstrates correct usage of mutable and immutable references and avoids the error. This example highlights the importance of understanding Rust's ownership and borrowing system to write safe and correct code.
